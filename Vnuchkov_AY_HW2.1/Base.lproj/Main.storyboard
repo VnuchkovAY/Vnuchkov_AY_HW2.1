@@ -16,16 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LTh-na-bkD">
-                                <rect key="frame" x="58" y="10" width="728" height="359"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="LTh-na-bkD">
+                                <rect key="frame" x="58" y="14" width="728" height="341"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1nB-Ez-Qqf">
-                                        <rect key="frame" x="0.0" y="0.0" width="728" height="176"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="728" height="163.66666666666666"/>
                                         <color key="backgroundColor" red="0.19295484020900011" green="1" blue="0.092592724579070862" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="arC-2S-V68">
-                                        <rect key="frame" x="0.0" y="184" width="728" height="175"/>
+                                        <rect key="frame" x="0.0" y="177.66666666666663" width="728" height="163.33333333333337"/>
                                         <color key="backgroundColor" red="1" green="0.13464548958650413" blue="0.10990629742040348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                     </view>
@@ -35,10 +35,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="LTh-na-bkD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="5QQ-eC-rol"/>
+                            <constraint firstItem="LTh-na-bkD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="5QQ-eC-rol"/>
                             <constraint firstItem="LTh-na-bkD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="MMj-5L-Fpc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LTh-na-bkD" secondAttribute="trailing" constant="14" id="QHt-yy-SrJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LTh-na-bkD" secondAttribute="bottom" id="X2O-hr-3Fh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LTh-na-bkD" secondAttribute="bottom" constant="14" id="X2O-hr-3Fh"/>
                         </constraints>
                     </view>
                 </viewController>
